@@ -39,7 +39,7 @@ main {
 }
 
 section {
-
+    margin-bottom: 2rem;
 }
 
 .work-sample {
@@ -47,15 +47,18 @@ section {
 }
 
 .work-sample img {
-  width: 30%;
-  height: 30%;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   display: block;
-  border-color: #10525b;
+  border: 2px solid #10525b;
+  border-radius: 6px;
 }
 
-/*TODO: Style sections */
+/*TODO: How to fix navigation messing up when screen is smaller */
 /*TODO: How to make borders around the images certain widths and colors */
 /* TODO: How to make boxes around each image/project */
 /* TODO: How to make project boxes line up in rows */
+/* TODO: Add some kind of border or box around navigation to make buttons */
 /*TODO: write README file */
 /*TODO: ensure all links work*/
