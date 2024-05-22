@@ -1,16 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-
+    text-align: center;
+    padding: 2rem 0;
+    background-color: ##10435b;
 }
 
 nav ul {
-
+    list-style: none;
+    padding: 0;
 
 }
 
