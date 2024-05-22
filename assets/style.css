@@ -22,8 +22,8 @@ nav ul {
 }
 
 nav ul li {
+  margin: 0 1rem;
   display: inline;
-  margin: 0 10rem;
 }
 
 nav ul li a {
@@ -31,6 +31,9 @@ nav ul li a {
   font-weight: bold;
   margin: 1rem;
   background-color: #00a199;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
 #profile-photo {
@@ -48,13 +51,15 @@ section {
     margin-bottom: 2rem;
 }
 
+
 .work-sample {
   margin: 1rem;
   text-align: center;
   padding: 1rem;
   border: 2px solid #10525b;
-  color: #ffffff;
   background-color:#00a199;
+  max-width: 300px;
+  box-sizing: border-box;
 }
 
 .work-sample img {
@@ -67,10 +72,24 @@ section {
   border-radius: 6px;
 }
 
-/*TODO: How to make borders around the images certain widths and colors */
-/* TODO: How to make boxes around each image/project */
-/* TODO: How to make project boxes line up in rows */
-/* TODO: How to structure boxes like in the mockup */
+.work-sample:first-child img {
+    max-width: 400px;
+}
+
+
+@media (min-width: 768px) {
+    .work-sample img {
+        width: 200px
+    }
+}
+
+@media (max-width: 768px) {
+    .work-sample img {
+        width: 200px
+    }
+}
+
+/* TODO: How to make the project boxes smaller, rather than them take up the whole width of the screen */
 /* TODO: How to add a background color to the text like in the navigation bar */
 /*TODO:Add placehold images */
 /* TODO: Make sure the challenge 01 image is bigger than the rest of them */ 
