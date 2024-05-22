@@ -1,41 +1,41 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    text-align: center;
-    padding: 2rem 0;
-    background-color: #10525b;
-    color: #ffffff;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #10525b;
+  color: #ffffff;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10rem;
+  display: inline;
+  margin: 0 10rem;
 }
 
 nav ul li a {
-    text-decoration: wavy;
-    color: #ffffff;
+  text-decoration: wavy;
+  color: #ffffff;
 }
 
 #profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 main {
-    color: #10525b;
-    padding: 2rem;
+  color: #10525b;
+  padding: 2rem;
 }
 
 section {
@@ -43,12 +43,17 @@ section {
 }
 
 .work-sample {
-
-
+  margin: 1rem;
 }
 
 .work-sample img {
-
-
+  width: 30%;
+  height: 30%;
+  display: block;
+  border-color: #10525b;
 }
 
+/*TODO: Style sections */
+/*TODO: How to make borders around the images certain widths and colors */
+/*TODO: write README file */
+/*TODO: ensure all links work*/
