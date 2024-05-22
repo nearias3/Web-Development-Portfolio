@@ -8,23 +8,23 @@ body {
 header {
     text-align: center;
     padding: 2rem 0;
-    background-color: ##10435b;
+    background-color: #10525b;
+    color: #ffffff;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-
 }
 
 nav ul li {
-
-
+    display: inline;
+    margin: 0 10rem;
 }
 
 nav ul li a {
-
-
+    text-decoration: wavy;
+    color: #ffffff;
 }
 
 #profile-photo {
