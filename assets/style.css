@@ -43,6 +43,7 @@ nav ul li a {
 main {
   color: #10525b;
   padding: 2rem;
+  text-align: center;
 }
 
 section {
@@ -51,15 +52,15 @@ section {
 
 .work-sample-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
-    justify-content: space-around;
     color: #ffffff;
+    justify-content: center;
+    flex-wrap: flex;
 }
 
 .work-sample-container > .work-sample:nth-child(1) {
     max-width: 500px;
-    max-height: auto;
+    max-height: 250px;
+    grid-row: span ;
 }
 
 .work-sample-container > .work-sample:nth-child(1) img {
@@ -76,8 +77,8 @@ section {
 }
 
 .work-sample img {
-  width: 100%;
-  max-width: 100%;
+  max-width: 200px;
+  max-height: 100px;
   height: auto;
   display: block;
   border: 2px solid #10525b;
@@ -105,10 +106,7 @@ footer {
     font-weight: bold;
 }
 
-/* TODO: How to make the project boxes smaller, rather than them take up the whole width of the screen */
-/* TODO: How to add a background color to the text like in the navigation bar */
+/* TODO: Make sure the challenge 01 image is bigger than the rest of them */
+/* TODO: Get the project boxes to be aligned so that one is on top and rest are below */
 /* TODO: Add white border to profile pic */
-/*TODO:Add placehold images */
-/* TODO: Make sure the challenge 01 image is bigger than the rest of them */ 
 /*TODO: write README file */
-/*TODO: ensure all links work*/
