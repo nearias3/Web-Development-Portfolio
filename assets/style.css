@@ -23,15 +23,13 @@ nav ul {
 
 nav ul li {
   margin: 0 1rem;
-  display: inline;
 }
 
 nav ul li a {
   color: #ffffff;
   font-weight: bold;
-  margin: 1rem;
-  background-color: #00a199;
   padding: 0.5rem 1rem;
+  background-color: #00a199;
   text-decoration: none;
   border-radius: 4px;
 }
@@ -51,6 +49,11 @@ section {
     margin-bottom: 2rem;
 }
 
+.work-sample-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .work-sample {
   margin: 1rem;
@@ -91,6 +94,7 @@ section {
 
 /* TODO: How to make the project boxes smaller, rather than them take up the whole width of the screen */
 /* TODO: How to add a background color to the text like in the navigation bar */
+/* TODO: Add white border to profile pic */
 /*TODO:Add placehold images */
 /* TODO: Make sure the challenge 01 image is bigger than the rest of them */ 
 /*TODO: write README file */
