@@ -1,4 +1,4 @@
-# Challenge-02
+# Web Development Portfolio
 
 ## Description
 
@@ -6,7 +6,7 @@ The purpose of this challenge was to use the skills learned in Module 2 of Bootc
 
 ## Usage
 
-In order to access the deployed website, click the following link: [https://nearias3.github.io/challenge-02]
+In order to access the deployed website, click the following link: [https://nearias3.github.io/Web-Development-Portfolio/]
 
 ![Screenshot of Portfolio Webpage](./assets/images/portfoliopreview.jpg)
 
